@@ -1,0 +1,29 @@
+
+.nav{
+    width: 1440px;
+    overflow: hidden;
+    column-gap: 50px;
+}
+
+.hom{
+    color: var(--gradient3);
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 700;
+line-height: 23px;
+}
+.abt, .con, .ser{
+    color: var(--gradent1);
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+}
+.sign{
+    background: linear-gradient(123.09deg, #2F98C2 -7.49%, #1E3673 78.8%);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700; 
+}

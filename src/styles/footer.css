@@ -1,0 +1,48 @@
+.footer{
+    background-color:var(--gradent1);
+    width: 1440px;
+height: 389px;
+top: 4045px
+
+}
+.com{
+    margin-top: 30px;
+}
+.com p{
+    color: white;
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.com a{
+    color: white;
+    text-decoration: none;
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.a{
+    font-size: 30px;
+    color: var(--gradient3);
+}
+li {
+    list-style-type: none;
+}
+li a{
+    color:white;
+    text-decoration: none;
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+
+
+}
