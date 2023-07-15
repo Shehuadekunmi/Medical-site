@@ -1,0 +1,58 @@
+.about{
+    background-color: var(--primary);
+    width: 1440px;
+    overflow: hidden;
+}
+
+.Aone{
+    background-image: url(../assets/bg.png);
+    height: 526px;
+    padding-top: 150px;
+}
+
+.Aone h5{
+    font-family: Roboto;
+font-size: 32px;
+font-weight: 700;
+}
+
+.Aone p{
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+width: 436px;
+height: 108px;
+}
+
+
+/* A2 */
+.im{
+    width: 412px;
+height: 530px;
+
+}
+ .Atwo h6{
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 600;
+    width: 533px;
+    height: 86px;
+    color: var(--gradent1);
+ }
+
+ .Atwo p{
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+width: 588px;
+ }
+
+ .teles{
+    position: relative;
+    top: -360px;
+    left: 300px;
+ }
+ .teles img{
+    width: 363px;
+    height: 381px;
+ }

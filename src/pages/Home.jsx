@@ -53,7 +53,7 @@ const Home = () => {
         <center><h3 className='fw-bold'>MEDKIT SPECIALITIES</h3>
           <img src={heart} alt="heartbeat" /></center>
 
-        <div className="container d-flex flex-wrap align-items-center justify-content-between ">
+        <div className="container d-flex flex-wrap align-items-center justify-content-evenly ">
           <center className="amb ">
             <img src={amb} alt="Ambulance" className='mt-1' />
             <h5 className='mt-3'>FASTEST AMBULANCE</h5>
@@ -80,7 +80,7 @@ const Home = () => {
         <center><h2>MEET OUR DOCTORS</h2>
           <img src={heart} alt="heartbeat" /></center>
 
-        <div className="doctors d-flex flex-wrap mx-5 mt-4 gap-5">
+        <div className="doctors d-flex flex-wrap mx- mt-4 justify-content-evenly">
           <center className="doc1">
             <img src={fr3} alt="frame29" />
             <h3>Dr. Jay Stephen</h3>
@@ -113,7 +113,7 @@ const Home = () => {
 
       <section className="five">
         <center><h2>Patients  Say</h2></center>
-        <div className='d-flex justify-content-around me-5'>
+        <div className='d-flex justify-content-evenly me-5'>
           <div className='mt-3 med'><p>“I had a wonderful experience with Medkit. <br /> They ensured my health  was greatly taken <br /> care of. I highly recommend Medkit.”</p>
             <h3>Aliya Roll</h3></div>
           <div className='mt-3 med'><p>“My treatment was second to none and the <br /> staffs  of Medkit were polite and caring”</p>
