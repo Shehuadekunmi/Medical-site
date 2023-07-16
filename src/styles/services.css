@@ -1,0 +1,50 @@
+.services{
+    background-color: var(--gradent);
+    width: 1440px;
+    overflow: hidden;
+}
+.services h4{
+    font-family: Roboto;
+font-size: 32px;
+font-weight: 600;
+color: var(--gradent1);
+}
+.services p{
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 600;
+line-height: 27px;
+width: 555px;
+height: 135px;
+
+}
+
+.services button{
+    background-color:var(--gradient3);
+    width: 156px;
+height: 60px;
+border-radius: 20px;
+font-size: 20px;
+color: white;
+
+}
+
+/* 1 */
+
+.S1{
+    background-image: url(../assets/bg2.png);
+    width: 1440px;
+height: 435px;
+}
+.A{
+    padding-top: 100px;
+}
+.A h4{
+    color:var(--gradient3);
+}
+
+ /* .S2, .S£, .S4, .S5, .S6, .S7{
+    width: 1240px;
+height: 655px;
+border-radius: 20px;
+}  */

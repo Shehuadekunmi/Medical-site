@@ -1,11 +1,19 @@
 .about{
-    background-color: var(--primary);
+    background-color: var(--gradent);
     width: 1440px;
     overflow: hidden;
 }
 
+.find, .button{
+    width: 192px;
+    height: 60px;
+    border-radius: 20px;  
+}
+
 .Aone{
     background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 526px;
     padding-top: 150px;
 }
@@ -23,13 +31,28 @@ font-weight: 500;
 width: 436px;
 height: 108px;
 }
+.Aone .find{
+    color: var(--gradent1);
+}
 
 
 /* A2 */
+/* .Atwo{
+    width: 1217px;
+height: 1535px;
+border: 1px;
+
+} */
+.Atwo .button{
+    background-color:var(--gradient3);
+}
 .im{
     width: 412px;
 height: 530px;
 
+}
+.hr{
+    color:30px solid red;
 }
  .Atwo h6{
     font-family: Roboto;
@@ -56,3 +79,54 @@ width: 588px;
     width: 363px;
     height: 381px;
  }
+
+ .C{
+    margin-top: -250px;
+    margin-bottom: 100px;
+ }
+
+ .story, .vision h4{
+    color: var(--gradent1);
+    font-family: Roboto;
+font-size: 32px;
+font-weight: 700;
+line-height: 43px;
+ }
+
+ .story, .vision p{
+    width: 376px;
+height: 108px;
+ }
+
+ .story p{
+    width: 620px;
+}
+.story .hrr{
+    color: red;
+}
+
+/* Athree */
+
+.Athree .car{
+    box-shadow: 15px 15px #1E3673;
+    color: white;
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+font-family: Roboto;
+font-size: 48px;
+font-weight: 700;
+background-color: var(--gradient3);
+width: 200px;
+height: 200px;
+border-radius: 20px;
+border: 2px;
+}
+
+.Athree .face img{
+    width: 400px;
+height: 400px;
+margin-top: 40px;
+
+
+}

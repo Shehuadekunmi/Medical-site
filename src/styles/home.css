@@ -3,9 +3,12 @@
     width: 1440px;
 height: 100%;
 overflow: hidden;
+}
 
-
-
+.get{
+    width: 192px;
+    height: 60px;
+    border-radius: 20px;
 }
 .pic{
     width: 572px;

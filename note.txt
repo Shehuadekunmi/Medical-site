@@ -62,3 +62,22 @@
         </Navbar.Collapse>
       </Container>
     </Navbar> */}
+
+
+
+    <Row className="g-2">
+      <Col md>
+        <FloatingLabel controlId="floatingInputGrid" label="Your Name*">
+          <Form.Control type="text" placeholder="Name" />
+        </FloatingLabel>
+      </Col>
+      <Col md>
+        <FloatingLabel>
+        
+           <FloatingLabel controlId="floatingInputGrid" label="Email address">
+          <Form.Control type="email" placeholder="name@example.com" />
+        </FloatingLabel>
+        
+        </FloatingLabel>
+      </Col>
+    </Row>
