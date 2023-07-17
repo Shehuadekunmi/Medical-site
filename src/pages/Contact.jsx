@@ -81,18 +81,15 @@ const Contact = () => {
       </div>
 
 
-      <section className="C5 my-5 py-5">
-        <h4>Subscribe</h4>
+      <section className="C5 my-5 py-5 d-flex justify-content-around">
+        <div><h4>Subscribe</h4>
         <p>Get our latest news & update regularly</p>
-
+        </div>
         <div>
-          <ion-content>
-            <ion-list className='au-form inset padding'>
-              <ion-item>
-                <ion-input type='password' placeholder='password' ></ion-input>
-              </ion-item>
-            </ion-list>
-          </ion-content>
+          <form>
+            <input type="email" placeholder='Type Email Address' />
+           <button>Subscribe</button>
+          </form>
         </div>
       </section>
     </div>
