@@ -1,6 +1,6 @@
 .services{
     background-color: var(--gradent);
-    width: 1440px;
+    width: 100%;
     overflow: hidden;
 }
 .services h4{
@@ -33,7 +33,7 @@ color: white;
 
 .S1{
     background-image: url(../assets/bg2.png);
-    width: 1440px;
+    width: 100%;
 height: 435px;
 }
 .A{

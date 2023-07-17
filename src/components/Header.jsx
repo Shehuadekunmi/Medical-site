@@ -12,11 +12,11 @@ const Header = () => {
      <Navbar expand="lg" className="bg-body-light nav">
       <Container className='d-flex justify-content-around'>
         <Navbar.Brand className=' fs-4 fw-bold'>
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="logo" className='logo' />
 
         </Navbar.Brand>
     
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className='toggle' />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
            

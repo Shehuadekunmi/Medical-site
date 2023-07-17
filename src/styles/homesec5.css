@@ -1,0 +1,98 @@
+
+.five{
+    width: 100vw;
+height: 517px;
+margin: 100px 0px;
+}
+.five h2{
+    font-family: Roboto;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+width: 189px;
+height: 38px;
+color: var(--gradent1);
+}
+ .five p{
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+height: 79px;
+padding-top: 30px;
+ }
+ .med{
+   background-color:white;
+   width: 400px;
+
+
+ }
+ .med p{
+    height: 100px;
+ }
+ .five h3{
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 700;
+text-align: left;
+color: var(--gradent1);
+ }
+
+ .day{
+    width: 1140px;
+    margin: auto;
+    padding-top: 40px;
+height: 200px;
+background: linear-gradient(106.99deg, #2F98C2 17.92%, #1E3673 67.37%);
+ }
+ .day h1{
+   color: white;
+    font-family: Roboto;
+font-size: 32px;
+font-weight: 600;
+line-height: 38px;
+width: 566px;
+ }
+.link{
+background-color: whitesmoke;
+border-radius: 10px, 20px/ 30px, 40px;
+ }
+
+ @media (max-width:770px) {
+    .s5{
+        text-align: center;
+        gap: 20px;
+        width:90%;
+        margin: 0px 15px;
+height: 250px;
+    }
+    .med p{
+        font-size: 13px;
+        text-align:start;
+        padding-left: 10px;
+     }
+
+     .five h3{
+       font-size: 16px;
+       padding-top: 75px;
+       padding-left: 10px;
+     }
+     .day{
+        width: 375px;
+height: 175px;
+     }
+     .day h1{
+        font-size: 20px;
+        text-align: cent;
+        padding-right: 50px;
+        width: 100%;
+     }
+     .link{
+        width: 140p;
+        font-size: 13px;
+        align-items: center;
+   margin-right: 20px;
+         }
+ }

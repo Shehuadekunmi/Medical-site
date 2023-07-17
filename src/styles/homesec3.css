@@ -1,0 +1,49 @@
+/* .three{
+    width: 1257px;
+height: 410px;
+margin: 100px 0px;
+ } */
+ .three h3, p, h5{
+    color:var(--gradent1);
+ }
+ .three h3{
+    font-family: Roboto;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+width: 327px;
+height: 38px;
+ }
+
+ .three h5{
+    color:var(--gradent1);
+    font-family: Roboto;
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+height: 28px;
+text-align: center;
+}
+.three p{
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+}
+.test{
+    border: 1px solid #00000066
+}
+
+@media (max-width:760px) {
+    .test{
+        display: none;
+    }
+    .three h3{
+        font-size: 20px;
+    }
+    .three h5{
+        font-size: 20px;
+    }
+}

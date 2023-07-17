@@ -1,6 +1,6 @@
 .about{
     background-color: var(--gradent);
-    width: 1440px;
+    width: 100%;
     overflow: hidden;
 }
 
