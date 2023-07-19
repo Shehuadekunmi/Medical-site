@@ -21,24 +21,26 @@ const Services = () => {
 
 
 
-      <section className="S2 d-flex justify-content-evenly my-5">
-        <div className="A2 mt-5 pt-5">
-          <hr />
+      <section className="S2 d-flex justify-content-evenly  align-items-center my-5">
+        <div className="S2-text">
+          <hr className='hori'/>
           <h4>COVID-19 Vaccine Administration</h4>
-          <p>Lorem ipsum dolor sit amet consectetur. Ullamcorper sodales ut netus dictum tellus nunc ullamcorper quisque. Lectus in nisl viverra nisl faucibus. Id pharetra nisl a amet leo non mollis. Phasellus lectus ut suspendisse tortor eget sit senectus.</p>
+         <div className="sho"> <p>Lorem ipsum dolor sit amet consectetur. Ullamcorper sodales ut netus dictum tellus nunc ullamcorper quisque. Lectus in nisl viverra nisl faucibus. Id pharetra nisl a amet leo non mollis. Phasellus lectus ut suspendisse tortor eget sit senectus.</p> </div>
+          <div className="disap">Lorem ipsum dolor sit amet consectetur. Ullamcorper sodales utnetusamcorperquisque.Phasellus lectus ut suspendisse tortor eget sit senectus.</div>
           <button className='btn rounded-4' >See Details</button>
         </div>
-        <div className="B2"> <img src={covid} alt="covid" /></div>
+        <div className="S2-img"> <img src={covid} alt="covid" className='img-fluid' /></div>
       </section>
 
 
 
-      <section className="S3 d-flex justify-content-evenly my-5">
-        <div className="A3"><img src={ambu1} alt="ambulance" /></div>
-        <div className="B3 mt-5 pt-5">
-          <hr />
+      <section className="S2 d-flex justify-content-evenly my-5">
+        <div className="S2-img "><img src={ambu1} alt="ambulance" className='img-fluid' /></div>
+        <div className="S2-text">
+          <hr className='hori'/>
           <h4>Ambulance</h4>
-          <p>Lorem ipsum dolor sit amet consectetur. Ullamcorper sodales ut netus dictum tellus nunc ullamcorper quisque. Lectus in nisl viverra nisl faucibus. Id pharetra nisl a amet leo non mollis. Phasellus lectus ut suspendisse tortor eget sit senectus.</p>
+          <div className="sho"> <p>Lorem ipsum dolor sit amet consectetur. Ullamcorper sodales ut netus dictum tellus nunc ullamcorper quisque. Lectus in nisl viverra nisl faucibus. Id pharetra nisl a amet leo non mollis. Phasellus lectus ut suspendisse tortor eget sit senectus.</p> </div>
+          <div className="disap">Lorem ipsum dolor sit amet consectetur. Ullamcorper sodales utnetusamcorperquisque.Phasellus lectus ut suspendisse tortor eget sit senectus.</div>
           <button className='btn rounded-4'>See Details</button>
         </div>
       </section>
@@ -46,23 +48,25 @@ const Services = () => {
 
 
       <section className="S4 d-flex justify-content-evenly my-5">
-        <div className="A4 mt-5 pt-5">
-          <hr />
+        <div className="A4 S2-text">
+          <hr className='hori' />
           <h4>Gynecology</h4>
-          <p>Lorem ipsum dolor sit amet consectetur. Ullamcorper sodales ut netus dictum tellus nunc ullamcorper quisque. Lectus in nisl viverra nisl faucibus. Id pharetra nisl a amet leo non mollis. Phasellus lectus ut suspendisse tortor eget sit senectus.</p>
+          <div className="sho"> <p>Lorem ipsum dolor sit amet consectetur. Ullamcorper sodales ut netus dictum tellus nunc ullamcorper quisque. Lectus in nisl viverra nisl faucibus. Id pharetra nisl a amet leo non mollis. Phasellus lectus ut suspendisse tortor eget sit senectus.</p> </div>
+          <div className="disap">Lorem ipsum dolor sit amet consectetur. Ullamcorper sodales utnetusamcorperquisque.Phasellus lectus ut suspendisse tortor eget sit senectus.</div>
           <button className='btn rounded-4' >See Details</button>
         </div>
-        <div className="B4"><img src={gyn} alt="Gynecology" /></div>
+        <div className="B4 S2-img"><img src={gyn} alt="Gynecology" className='img-fluid' /></div>
       </section>
 
 
 
       <section className="S5 d-flex justify-content-evenly my-5">
-        <div className="A5"><img src={paed} alt="Paediatrics" /></div>
-        <div className="B5 mt-5 pt-5">
-          <hr />
+        <div className="A5 S2-img"><img src={paed} alt="Paediatrics" className='img-fluid'/></div>
+        <div className="B5 S2-text">
+          <hr className='hori' />
           <h4>Paediatrics</h4>
-          <p>Lorem ipsum dolor sit amet consectetur. Ullamcorper sodales ut netus dictum tellus nunc ullamcorper quisque. Lectus in nisl viverra nisl faucibus. Id pharetra nisl a amet leo non mollis. Phasellus lectus ut suspendisse tortor eget sit senectus.</p>
+          <div className="sho"> <p>Lorem ipsum dolor sit amet consectetur. Ullamcorper sodales ut netus dictum tellus nunc ullamcorper quisque. Lectus in nisl viverra nisl faucibus. Id pharetra nisl a amet leo non mollis. Phasellus lectus ut suspendisse tortor eget sit senectus.</p> </div>
+          <div className="disap">Lorem ipsum dolor sit amet consectetur. Ullamcorper sodales utnetusamcorperquisque.Phasellus lectus ut suspendisse tortor eget sit senectus.</div>
           <button className='btn rounded-4'>See Details</button>
         </div>
       </section>
@@ -70,23 +74,25 @@ const Services = () => {
 
 
       <section className="S6 d-flex justify-content-evenly my-5">
-        <div className="A6 mt-5 pt-5">
-          <hr />
+        <div className="A6 S2-text">
+          <hr className='hori' />
           <h4>Optometry</h4>
-          <p>Lorem ipsum dolor sit amet consectetur. Ullamcorper sodales ut netus dictum tellus nunc ullamcorper quisque. Lectus in nisl viverra nisl faucibus. Id pharetra nisl a amet leo non mollis. Phasellus lectus ut suspendisse tortor eget sit senectus.</p>
+          <div className="sho"> <p>Lorem ipsum dolor sit amet consectetur. Ullamcorper sodales ut netus dictum tellus nunc ullamcorper quisque. Lectus in nisl viverra nisl faucibus. Id pharetra nisl a amet leo non mollis. Phasellus lectus ut suspendisse tortor eget sit senectus.</p> </div>
+          <div className="disap">Lorem ipsum dolor sit amet consectetur. Ullamcorper sodales utnetusamcorperquisque.Phasellus lectus ut suspendisse tortor eget sit senectus.</div>
           <button className='btn rounded-4'>See Details</button>
         </div>
-        <div className="B6"><img src={optom} alt="Optometry" /></div>
+        <div className="B6 S2-img"><img src={optom} alt="Optometry" className='img-fluid'/></div>
       </section>
 
 
 
       <section className="S7 d-flex justify-content-evenly my-5">
-        <div className="A7"><img src={gene} alt="General Physician" /></div>
-        <div className="B7 mt-5 pt-5">
-          <hr />
+        <div className="A7 S2-img"><img src={gene} alt="General Physician" className='img-fluid' /></div>
+        <div className="B7 S2-text">
+          <hr className='hori' />
           <h4>General Physician</h4>
-          <p>Lorem ipsum dolor sit amet consectetur. Ullamcorper sodales ut netus dictum tellus nunc ullamcorper quisque. Lectus in nisl viverra nisl faucibus. Id pharetra nisl a amet leo non mollis. Phasellus lectus ut suspendisse tortor eget sit senectus.</p>
+          <div className="sho"> <p>Lorem ipsum dolor sit amet consectetur. Ullamcorper sodales ut netus dictum tellus nunc ullamcorper quisque. Lectus in nisl viverra nisl faucibus. Id pharetra nisl a amet leo non mollis. Phasellus lectus ut suspendisse tortor eget sit senectus.</p> </div>
+          <div className="disap">Lorem ipsum dolor sit amet consectetur. Ullamcorper sodales utnetusamcorperquisque.Phasellus lectus ut suspendisse tortor eget sit senectus.</div>
           <button className='btn rounded-4'>See Details</button>
         </div>
       </section>

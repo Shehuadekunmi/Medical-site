@@ -30,7 +30,7 @@ const Header = () => {
 
           <Nav className="ms-auto">
            
-                <Link to ='#' className='text-decoration-none  fs-5 fw-light mx-3 hom'>Login</Link>
+                <Link to ='/LogIn' className='text-decoration-none  fs-5 fw-light mx-3 hom'>Login</Link>
            
                 <Link to='#' className='text-decoration-none   fw-light mx-3' >
                 <button className="btn sign rounded-3 text-white">Sign UP</button>

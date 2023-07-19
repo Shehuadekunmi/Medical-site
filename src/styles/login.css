@@ -1,0 +1,72 @@
+.login{
+    display: none;
+}
+
+.log{
+    background-color: var(--gray);
+}
+
+.medkit h5{
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 600;
+color: var(--gradent1);
+margin-top: 20px;
+}
+.fform{
+    width: 100%;
+}
+
+.fform input{
+    width: 80%;
+}
+
+.medkit{
+    width: 236px;
+height: 162px;
+}
+
+.email input{
+    margin-bottom: 20px;
+    width: 90%;
+    height: 35px;
+    border-radius: 30px;
+    border: 2px;
+    text-align: center;
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+border: 2px solid #00000033
+}
+
+.email label{
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+color: #1E3673;
+margin-bottom: 5px;
+}
+
+.email p{
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+color: #C5221F;
+}
+ 
+.email button{
+    width: 90%;
+    color: white;
+    background: #1E3673;
+    border-radius: 20px;
+
+}
+.spa p{
+    color:var(--gradent1);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.spa span{
+    color: var(--gradient3);
+}

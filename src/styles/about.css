@@ -36,75 +36,6 @@ height: 108px;
 }
 
 
-/* A2 */
-/* .Atwo{
-    width: 1217px;
-height: 1535px;
-border: 1px;
-
-} */
-.Atwo .button{
-    background-color:var(--gradient3);
-}
-.im{
-    width: 412px;
-height: 530px;
-
-}
-.hr{
-    color:30px solid red;
-}
- .Atwo h6{
-    font-family: Roboto;
-    font-size: 32px;
-    font-weight: 600;
-    width: 533px;
-    height: 86px;
-    color: var(--gradent1);
- }
-
- .Atwo p{
-    font-family: Roboto;
-font-size: 20px;
-font-weight: 500;
-width: 588px;
- }
-
- .teles{
-    position: relative;
-    top: -360px;
-    left: 300px;
- }
- .teles img{
-    width: 363px;
-    height: 381px;
- }
-
- .C{
-    margin-top: -250px;
-    margin-bottom: 100px;
- }
-
- .story, .vision h4{
-    color: var(--gradent1);
-    font-family: Roboto;
-font-size: 32px;
-font-weight: 700;
-line-height: 43px;
- }
-
- .story, .vision p{
-    width: 376px;
-height: 108px;
- }
-
- .story p{
-    width: 620px;
-}
-.story .hrr{
-    color: red;
-}
-
 /* Athree */
 
 .Athree .car{
@@ -129,4 +60,33 @@ height: 400px;
 margin-top: 40px;
 
 
+}
+
+@media (max-width:768px) {
+    .Aone h5{
+    font-size: 20px;
+    }
+    
+    .Aone p{
+    font-size: 16px;
+    width: 90%;
+    }
+
+    /* sec 3 */
+
+    .disappear{
+        display: none;
+    }
+    
+}
+
+@media (max-width:800px) {
+    .disappear{
+        display: block;
+        width: 50%;
+    }
+
+    .face{
+        width: 303px;
+    }
 }

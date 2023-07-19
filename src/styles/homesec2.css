@@ -1,70 +1,29 @@
-.two{
-    width:100%;
-height: 700px;
-background-color: var(--primary);
-margin-top: -120px;
 
+.twoo{
+    background-color: var(--primary);
 }
- .two h3{
-    font-family: Roboto;
-font-size: 36px;
-font-weight: 600;
-color: var(--gradent1);
-padding-top: 90px;
 
- }
- .two p{
-    width: 640px;
-height: 432px;
-font-family: Roboto;
-font-size: 20px;
-font-weight: 500;
-color: var(--gradent1);
-padding-left: 50px;
- }
- .two img{
-    width: 377px;
-height: 680px;
-rotate: 30.37 deg;
-margin-top: 50px;
+.covid-text h3{
+    color: var(--gradent1);
+}
 
- }
-
- .reg{
-    margin-top: 55px;
- }
-
-
- @media (max-width:768px) {
-    .textt p{
-        margin-left: -45px;
-        font-size: 16px;
-        width: 100%;
-    }
-
-    .two{
-        margin-top: 100px;
-        display: block;
-        flex-direction: row-reverse;
-        height: 1450px;
-    }
-    .two h3{
-        width: 342px;
-    font-size: 20px;
-    margin-top: -60px;
-    padding-top: 50px;
-    
-    }
-    
-    .two .reg{
-        margin-top: 350px;
-    }
-    .two .img{
-        margin-top: -100px;
-        order: 1;
-        margin-left: -50px;
-    }
-    .textt{
-        order: 2;
+@media (min-width:768px) {
+    .covid-text{
+        width: 740px;
+        height: 505p;
+        margin: 10px 0px;
     } 
- }
+}
+
+
+@media (min-width: 1024px){
+    .covid-text{
+        width: 640px;
+        height: 505px;
+    }
+    .covid-img img{
+        width: 398px;
+
+    }
+}
+

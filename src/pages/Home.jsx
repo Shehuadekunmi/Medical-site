@@ -1,7 +1,7 @@
 import React from 'react'
 import doc from '../assets/doc.png'
 import { Link } from 'react-router-dom'
-
+import heart from '../assets/heartbeat.png'
 import fr from '../assets/fr.png'
 import fr2 from '../assets/fr2.png'
 import fr3 from '../assets/fr3.png'
@@ -20,7 +20,7 @@ const Home = () => {
         <div className="text mt-5">
           <h2 className='mt-5'>Get Access to Quick And <br /> Confidential Medical Services</h2>
           <div className="para"><p className='mt-3'>Lorem ipsum dolor sit amet consectetur. Ante est ulmcorper nullam lacus tristique diam. Nulla sed rhoncus cras neque pulvinar. Pretium et adipiscing sociis commodo sit sem. Ac fusce vel facilisis pellentesque aliquam elentum. Massa morbi phasellus viverra nisi id.</p></div>
-         <div start> <button className='btn rounded-4 text-white get '>Get Started</button></div>
+          <div start> <button className='btn rounded-4 text-white get '>Get Started</button></div>
         </div>
       </section>
       <div className=' raj'>
@@ -33,20 +33,14 @@ const Home = () => {
       </div>
 
 
-<Homesec2/>
-     
+      <Homesec2 />
+
       <Homesec3 />
-      <Homesec5/>
 
 
-
-
-      
-
-
-      {/* <section className="four my-5">
-        <div><h2>MEET OUR DOCTORS</h2>
-          <img src={heart} alt="heartbeat" /></div>
+      <section className="four my-5">
+        <center><h2>MEET OUR DOCTORS</h2>
+          <img src={heart} alt="heartbeat" /></center>
 
         <div className="doctors d-flex flex-wrap mx- mt-4 justify-content-evenly">
           <div className="doc1">
@@ -74,39 +68,10 @@ const Home = () => {
             <BsFillChatLeftTextFill className='mx-4 fs-5 p' /> <MdOutlineCall className=' fs-5 p' />
           </div>
         </div>
-      </section> */}
+      </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      <Homesec5 />
 
 
 

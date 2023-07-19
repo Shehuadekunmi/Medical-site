@@ -8,6 +8,7 @@ import Appointment from './pages/Appointment'
 import './App.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import LogIn from './components/LogIn'
 
 function App() {
  
@@ -23,6 +24,7 @@ function App() {
           <Route path='/Contact' element = {<Contact/>}/>
           <Route path='/Services' element = {<Services/>}/>
           <Route path='./Appointment' element = {<Appointment/>}/>
+          <Route path='/logIn' element = {<LogIn/>} />
         </Routes>
         <Footer/>
       </Router>
