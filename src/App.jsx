@@ -9,6 +9,9 @@ import './App.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import LogIn from './components/LogIn'
+import Signup from './pages/Signup'
+import { Modal } from 'bootstrap'
+import AppointmentModal1 from './components/AppointmentModal1'
 
 function App() {
  
@@ -23,8 +26,11 @@ function App() {
           <Route path='/About' element = {<About/>}/>
           <Route path='/Contact' element = {<Contact/>}/>
           <Route path='/Services' element = {<Services/>}/>
-          <Route path='./Appointment' element = {<Appointment/>}/>
+          <Route path='/Appointment' element = {<Appointment/>}/>
           <Route path='/logIn' element = {<LogIn/>} />
+          <Route path='/Signup' element ={<Signup/>}/>
+          <Route path='/AppointmentModal1' element={<AppointmentModal1/>} />
+       
         </Routes>
         <Footer/>
       </Router>

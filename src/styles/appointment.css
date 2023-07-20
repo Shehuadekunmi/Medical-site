@@ -1,0 +1,168 @@
+.headd{
+    background-color:white;
+    width: 100%;
+    overflow: hidden;
+}
+
+.headd img{
+    width: 100px;
+   height: 35px;
+   margin: 10px 5px;
+}
+
+.headd .hom{
+    font-size: 12px;
+    text-align: center;
+    height: 35px;
+    margin: 10px 5px;
+}
+
+.hom2{
+    font-size: 12px;
+    height: 35px;
+    margin: 10px 5px;
+    color: #C5221F;
+}
+
+.login{
+    display: none;
+}
+
+.app{
+    background-color: var(--gray);
+    height: 450px;
+}
+
+.app h3{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--gradent1);
+   padding-top: 10px;
+}
+.form-app{
+    width: 95%;
+    margin-top: 20px;
+
+}
+
+.form-app input{
+    align-content: center;
+    margin: 15px 0px;
+    width: 90%;
+    height: 35px;
+    border-radius: 30px;
+    border: 2px;
+    padding-left: 10px;
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+border: 2px solid #00000033
+
+}
+
+.form-app button{
+    width: 40%;
+    color: white;
+    background: #1E3673;
+    border-radius: 20px;
+    margin:20px 0px;
+}
+
+@media (min-width:600px) {
+
+    .headd img{
+        width: 150px;
+       height: 35px;
+    }
+    
+    .headd .hom{
+        font-size: 20px;
+        height: 35px;
+    }
+    
+    .hom2{
+        font-size: 20px;
+        height: 35px;
+    }
+
+
+
+
+    .login{
+        display: block;
+        width: 450px;
+        height: 428px;
+        margin-top: 40px;
+    }
+
+    .login img{
+        height: 95% !important;
+        width: 80%;
+        border-radius: 30px;
+    }
+
+    .form-app{
+        width: 55%;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+
+    .app{
+        height: 600px;
+        gap: 50px;
+    }
+}
+
+@media (min-width:1000px) {
+
+    .headd img{
+        width: 200px;
+       height: 65px;
+    }
+    
+    .headd .hom{
+        font-size: 32px;
+        height: 35px;
+    }
+    
+    .hom2{
+        font-size: 32px;
+        height: 35px;
+    }
+
+
+
+    .login img{
+        height: 100%;
+        width: 90%;
+        position: relative;
+        right: 0px;
+        border-radius: 0px;
+    }
+
+    .form-app input{
+        width: 70%;
+        height: 50px;
+    font-size: 20px;
+    }
+
+    .login{
+        height: 522px;
+    }
+    .form-app{
+        background-color: white;
+        width: 50%;
+        height: 500px;
+        position: relative;
+        left: 50px;
+      }
+     
+    .form-app button{
+        width: 50%;
+        height: 50px; 
+        font-size: 20px;
+    }
+
+}

@@ -1,0 +1,21 @@
+.appmodal h5{
+    padding:20px 30px;
+    color: #FFF;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+
+}
+
+.succ{
+    background-color: blue;
+    width: 375px;
+height: 72px;
+}
+.appmodal{
+    width: 375px;
+height: 272px;
+margin: 20px auto;
+padding: auto;
+}

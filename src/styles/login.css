@@ -4,6 +4,7 @@
 
 .log{
     background-color: var(--gray);
+    height: 550px;
 }
 
 .medkit h5{
@@ -14,19 +15,26 @@ color: var(--gradent1);
 margin-top: 20px;
 }
 .fform{
-    width: 100%;
+    width: 95%;
 }
 
 .fform input{
     width: 80%;
+    
 }
 
 .medkit{
     width: 236px;
-height: 162px;
+height: 102px;
+}
+
+.email{
+    margin: 0px auto;
+    margin-left: 15px;
 }
 
 .email input{
+    align-content: center;
     margin-bottom: 20px;
     width: 90%;
     height: 35px;
@@ -37,6 +45,7 @@ height: 162px;
 font-size: 12px;
 font-weight: 400;
 border: 2px solid #00000033
+
 }
 
 .email label{
@@ -52,6 +61,11 @@ margin-bottom: 5px;
 font-size: 12px;
 font-weight: 400;
 color: #C5221F;
+
+}
+
+.your{
+    text-decoration: none;
 }
  
 .email button{
@@ -59,7 +73,6 @@ color: #C5221F;
     color: white;
     background: #1E3673;
     border-radius: 20px;
-
 }
 .spa p{
     color:var(--gradent1);
@@ -69,4 +82,67 @@ color: #C5221F;
 
 .spa span{
     color: var(--gradient3);
+}
+
+
+@media (min-width:600px) {
+    .login{
+        display: block;
+        width: 450px;
+        height: 528px;
+        margin-top: 40px;
+    }
+
+    .login img{
+        height: 450px;
+        width: 80%;
+        border-radius: 30px;
+    }
+
+    .fform{
+        width: 55%;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    .log{
+        height: 640px;
+        gap: 50px;
+    }
+}
+
+@media (min-width:1000px) {
+    .login img{
+        height: 525px;
+        width: 80%;
+    }
+
+    .email input{
+        width: 70%;
+        height: 50px;
+    font-size: 20px;
+    }
+
+    .log{
+        height: 640px;
+        gap: 50p;
+    }
+
+    .spa p{
+       font-size: 20px;
+    }
+
+    .email label{
+    font-size: 20px;
+    }
+    
+    .email p{
+    font-size: 20px;
+    }
+     
+    .email button{
+        width: 70%;
+        height: 50px; 
+        font-size: 20px;
+    }
 }

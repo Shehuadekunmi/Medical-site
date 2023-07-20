@@ -28,7 +28,7 @@ const Home = () => {
         <div className='dr'>
           <h1 className='text-white mt-4 '>Dr. Raj Spencer</h1>
           <h4>Consultant</h4>
-          <button className=' btn bg-white book rounded-4'> <Link to='#' className='btn bg-white book'> Book Appointment</Link> </button>
+          <button className=' btn bg-white book rounded-4'> <Link to='/Login' className='btn bg-white book'> Book Appointment</Link> </button>
         </div>
       </div>
 

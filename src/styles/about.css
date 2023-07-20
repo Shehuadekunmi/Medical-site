@@ -82,7 +82,7 @@ margin-top: 40px;
 
 @media (max-width:800px) {
     .disappear{
-        display: block;
+        display: bloc;
         width: 50%;
     }
 
