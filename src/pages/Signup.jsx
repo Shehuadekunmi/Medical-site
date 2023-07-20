@@ -5,6 +5,7 @@ import '../styles/login.css'
 import facebk from'../assets/facebk.png'
 import gmail from '../assets/gmail.png'
 import insta from '../assets/insta.png'
+import { Link } from 'react-router-dom';
 
 const Signup = () => {
   return (
@@ -25,12 +26,12 @@ const Signup = () => {
           <input type="Email" placeholder='elo@techstudio.com' /> <br />
 
           <label htmlFor="Password" >Password</label> <br />
-          <input type="number" placeholder='Min 8 characters' />
+          <input type="number" placeholder='Min 8 characters' /> <br />
 
-          <button className='btn'>Log In</button>
+          <Link to='/Appointment' className='btn '> <button className='btn' style={{width:'260px'}}>Sign Up</button> </Link>
 
           <div className="spa">
-            <p>Don’t have an account? <span> Sign Up </span> </p>
+            <p>Don’t have an account? <span> <Link to='/Login' className='btn '>Log In </Link> </span> </p>
           </div>
 
         </form>

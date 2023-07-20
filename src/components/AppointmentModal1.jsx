@@ -13,7 +13,7 @@ const AppointmentModal1 = () => {
 
  <hr />
 
- <button>Continue</button>
+ <button className='btn text-white'>Continue</button>
 
     </div>
   )

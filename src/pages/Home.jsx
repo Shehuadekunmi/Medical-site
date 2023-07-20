@@ -20,7 +20,7 @@ const Home = () => {
         <div className="text mt-5">
           <h2 className='mt-5'>Get Access to Quick And <br /> Confidential Medical Services</h2>
           <div className="para"><p className='mt-3'>Lorem ipsum dolor sit amet consectetur. Ante est ulmcorper nullam lacus tristique diam. Nulla sed rhoncus cras neque pulvinar. Pretium et adipiscing sociis commodo sit sem. Ac fusce vel facilisis pellentesque aliquam elentum. Massa morbi phasellus viverra nisi id.</p></div>
-          <div start> <button className='btn rounded-4 text-white get '>Get Started</button></div>
+          <div start> <button className='btn rounded-4 text-white get '><Link to='/Signup' className='btn text-white fs-4'>Get Started</Link></button></div>
         </div>
       </section>
       <div className=' raj'>

@@ -10,12 +10,44 @@ font-weight: 400;
 
 .succ{
     background-color: blue;
-    width: 375px;
+    width: 100%px;
 height: 72px;
+margin-bottom: 20px;
 }
 .appmodal{
     width: 375px;
 height: 272px;
 margin: 20px auto;
 padding: auto;
+}
+
+.appmodal img{
+    margin: 20px 0px;
+}
+
+.appmodal p{
+    color: #1E3673;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 134.188%; 
+}
+
+.appmodal button {
+    width: 97px;
+height: 39px;
+background-color: var(--gradent1);
+}
+
+@media (min-width:900px) {
+    .appmodal p{
+    font-size: 20px;
+    }
+
+    .appmodal button {
+        width: 178px;
+        height: 50px;
+        flex-shrink: 0;
+    }
 }
