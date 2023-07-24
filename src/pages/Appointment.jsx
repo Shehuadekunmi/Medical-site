@@ -5,6 +5,7 @@ import line from '../assets/Line4.png'
 import '../styles/login.css'
 import { Link } from 'react-router-dom';
 import '../styles/Appointment.css'
+import Footer from '../components/Footer'
 
 const Appointment = () => {
   return (
@@ -40,6 +41,9 @@ const Appointment = () => {
           <img src={Appoint} alt="Appointment" className='img-fluid' style={{ height: '590px' }} />
         </div>
       </div>
+
+      <Footer/>
+      
     </div>
   )
 }

@@ -7,10 +7,14 @@ import gyn from '../assets/gyn.png'
 import optom from '../assets/optom.png'
 import paed from '../assets/paed.png'
 import'../styles/services.css'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 const Services = () => {
   return (
     <div className='services'>
+
+<Header/>
 
       <section className="S1">
         <center className="A">
@@ -97,6 +101,7 @@ const Services = () => {
         </div>
       </section>
 
+      <Footer/>
     </div>
   )
 }

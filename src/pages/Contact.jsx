@@ -1,4 +1,6 @@
 import React from 'react'
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
@@ -15,8 +17,8 @@ import group58 from '../assets/Group 58.png'
 
 const Contact = () => {
   return (
-
-    <div className='contact'>
+ <div className='contact'>
+   <Header/>
 
       <section className="C1">
         <center className='ade'><h3 > Contact Us</h3></center>
@@ -69,6 +71,8 @@ const Contact = () => {
           </form>
         </div>
       </section>
+
+      <Footer/>
     </div>
   )
 }

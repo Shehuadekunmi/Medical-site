@@ -78,7 +78,7 @@ function handleValidation(event) {
 
           <Link to='/SignUp' className='your' ><p>Forgot your password?</p></Link>
 
-          <button className='btn'>Log In</button>
+          <Link to='/'>  <button className='btn'>Log In</button> </Link>
 
           <div className="spa">
             <p>Don’t have an account? <Link to='/SignUp' ><span> Sign Up </span></Link> </p>  

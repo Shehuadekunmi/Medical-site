@@ -1,4 +1,6 @@
 import React from 'react'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 import doc from '../assets/doc.png'
 import { Link } from 'react-router-dom'
 import heart from '../assets/heartbeat.png'
@@ -16,6 +18,8 @@ import Homesec5 from '../components/Homesec5'
 const Home = () => {
   return (
     <div className='home'>
+       <Header/>
+
       <section className='d-flex gap-3  one mb-'>
         <div className="pic"> <img src={doc} alt="doc" /></div>
         <div className="text mt-5">
@@ -75,7 +79,7 @@ const Home = () => {
 
       <Homesec5 />
 
-
+      <Footer/>
 
     </div>
   )

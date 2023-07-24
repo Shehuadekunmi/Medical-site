@@ -1,4 +1,6 @@
 import React from 'react'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 import {AiOutlineRight} from 'react-icons/ai'
 
@@ -10,6 +12,7 @@ import Aboutsec2 from '../components/Aboutsec2'
 const About = () => {
   return (
     <div className='about'>
+         <Header/>
       <section className="Aone">
         <center>
           <h5 className='text-white text-center '>Health is Wealth</h5>
@@ -48,6 +51,8 @@ const About = () => {
         </div>
         <div className="face mb-2"><img src={face} alt="" className='mask img-fluid' /></div>
       </scetion>
+
+      <Footer/>
     </div>
   )
 }

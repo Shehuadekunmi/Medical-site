@@ -127,7 +127,7 @@
     }
 
     .S2-text p {
-        width: 187px;
+        width: 137px !important;
         height: 80px;
         font-size: 10px;
         margin-top: -30p;
@@ -136,7 +136,7 @@
     .S2-text h4 {
         width: 183px;
         height: 54px;
-        font-size: 13px;
+        font-size: 13px !important;
 
     }
 
