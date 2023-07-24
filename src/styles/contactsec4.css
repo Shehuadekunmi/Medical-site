@@ -1,7 +1,4 @@
 
-
-
-
 .C4{
     background-color: #F5F5F5;
     width: 80%px;
@@ -15,11 +12,14 @@ border-radius: 20px;
     width: 248px;
     height: 273px;
 }
-
+.input input{
+    width: 100%;
+    font-size: 14px;
+}
 .input{
-width: 35%;
+width: 55%;
 margin: auto 5px;
-font-size: 12px;
+margin-left: -3px;
 border-radius: 20px;
 border: none;
 height: 39px;
@@ -58,6 +58,25 @@ left: 100p;
 position: relative;
 border-radius: 20px;
 } 
+.input input{
+    width: 100%;
+    font-size: 20px;
+}
+.input{
+width: 35%;
+margin: auto 5px;
+}
+}
+
+@media (min-width:600px) {
+    .input input{
+        width: 100%;
+        font-size: 20px;
+    }
+    .input{
+    width: 35%;
+    margin: auto 5px;
+    }
 }
 /* .C4 .nam{
     width: 813px;

@@ -38,10 +38,13 @@ font-weight: 500;
 color: var(--gradent1);
 }
 .text button{
-    background-color: var(--gradient3);
-    
+    background-color: var(--gradient3);    
 }
 
+
+.dr{
+    margin-left: 600px;
+}
 .raj h1{
     font-family: Roboto;
 font-size: 32px;
@@ -59,9 +62,7 @@ text-align: center;
 
 } 
 
- Link .reg-now{
-    color: red;
-}
+
 .raj{
    display: flex;
 column-gap: 650px;
@@ -106,6 +107,7 @@ line-height: 23px;
 /* section 5 */
 .doctors{
     width: 95%;
+   justify-content: space-around;
 }
 
 
@@ -132,10 +134,9 @@ margin-top: -40px;
         font-size: 20px;
     }
     .text button{
-        width: 120px;
-height: 39px;
+        width: 50%;
+height: 49px;
 font-size: 14px;
-padding-top: 3px;
     }
 
  }
@@ -149,9 +150,9 @@ padding-top: 3px;
         width: 100%;
     }
     .text button{
-        margin-top: 60px;
-        width: 150px;
-height: px;
+        width: 200px;
+        margin: 0px auto;
+        margin-left: 50px;
 font-size: 20px;
 padding-top: -10px;
     }

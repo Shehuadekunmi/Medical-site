@@ -33,6 +33,10 @@ height: 102px;
     margin-left: 15px;
 }
 
+.error{
+    color: red;
+}
+
 .email input{
     align-content: center;
     margin-bottom: 20px;
@@ -53,7 +57,6 @@ border: 2px solid #00000033
 font-size: 12px;
 font-weight: 400;
 color: #1E3673;
-margin-bottom: 5px;
 }
 
 .email p{
@@ -73,6 +76,7 @@ color: #C5221F;
     color: white;
     background: #1E3673;
     border-radius: 20px;
+    cursor: pointer;
 }
 .spa p{
     color:var(--gradent1);
@@ -89,7 +93,7 @@ color: #C5221F;
     .login{
         display: block;
         width: 450px;
-        height: 528px;
+        height: 528px !important;
         margin-top: 40px;
     }
 
@@ -114,8 +118,7 @@ color: #C5221F;
 @media (min-width:1000px) {
     .login img{
         height: 525px;
-        width: 80%;
-    }
+        width: 80%;    }
 
     .email input{
         width: 70%;
@@ -137,6 +140,7 @@ color: #C5221F;
     }
     
     .email p{
+        margin-bottom: 5px;
     font-size: 20px;
     }
      

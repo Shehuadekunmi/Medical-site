@@ -9,6 +9,7 @@ const Aboutsec2 = () => {
         <div>
 
             <section className="Aatwo ">
+                <center></center>
                 <div className='Aa d-flex gap-3 mt-3'>
                     <div className="im">
                         <img src={micro} alt="" className='img-fluid' />

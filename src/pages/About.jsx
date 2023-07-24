@@ -35,7 +35,7 @@ const About = () => {
               <Card.Text className="mt-3 text-white text-center fs-5"> Team Members </Card.Text>
             </Card>
           </div>
-          <div className=" my-5 d-flex gap-5 ms-5 toyo">
+          <div className=" my-5 d-flex gap-5  toyo">
             <Card style={{ width: '9rem', height: '10rem' }} className='car rounded-4'>
               <Card.Subtitle className="mb-2 my-4 text-white text-center fs-5">15 +</Card.Subtitle>
               <Card.Text className="mt-3 text-white text-center fs-5"> Merit Awards </Card.Text>

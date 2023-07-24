@@ -7,7 +7,7 @@
 .find, .button{
     width: 192px;
     height: 60px;
-    border-radius: 20px;  
+    border-radius: 20px; 
 }
 
 .Aone{
@@ -82,7 +82,6 @@ margin-top: 40px;
 
 @media (max-width:800px) {
     .disappear{
-        display: bloc;
         width: 50%;
     }
 

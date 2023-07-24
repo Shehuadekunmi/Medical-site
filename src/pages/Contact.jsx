@@ -8,6 +8,10 @@ import bg3 from '../assets/bg3.png'
 import map from '../assets/map.png'
 import '../styles/contact.css'
 import Contactsec4 from '../components/Contactsec4';
+import group55 from '../assets/Group 55.png'
+import group56 from '../assets/Group 56.png'
+import group57 from '../assets/Group 57.png'
+import group58 from '../assets/Group 58.png'
 
 const Contact = () => {
   return (
@@ -22,23 +26,23 @@ const Contact = () => {
       <div className="cont">
         <section className="C2 d-flex justify-content-evenly pt-5">
          <Card style={{ }} className='car rounded-4 sho '>
-            <Card.Subtitle className="mb-2 my-4  text-center fs-5">98%</Card.Subtitle>
-            <Card.Text className="mt-3 dark text-center fs-6"> 1, Ogunlesi str, onipanu, Lagos.</Card.Text>
+            <Card.Subtitle className=" my-2 text-center "><img src={group55} alt="" /></Card.Subtitle>
+            <Card.Text className=" dark text-center "> 1, Ogunlesi str, <br /> onipanu, Lagos.</Card.Text>
           </Card>
           <Card  className='car rounded-4 sho '>
-            <Card.Subtitle className="mb-2 my-4  text-center fs-5">98%</Card.Subtitle>
-            <Card.Text className="mt-3 text-dark text-center fs-6"> (233) 768-0202
+            <Card.Subtitle className=" my-2 text-center "><img src={group56} alt="" /></Card.Subtitle>
+            <Card.Text className=" dark text-center "> (233) 768-0202 <br />
               (234) 799-1020</Card.Text>
           </Card>
           <Card  className='car rounded-4 sho'>
-            <Card.Subtitle className="mb-2 my-4  text-center fs-5">98%</Card.Subtitle>
-            <Card.Text className="mt-3 text-dark text-center fs-6"> www.medkit.com
+            <Card.Subtitle className=" my-2 text-center "><img src={group57} alt="" /></Card.Subtitle>
+            <Card.Text className=" dark text-center "> www.medkit.com
               info@medkit.com</Card.Text>
           </Card>
             <div className="remove">
               <Card  className='car rounded-4 '>
-                  <Card.Subtitle className="mb-2 my-4  text-center fs-5">98%</Card.Subtitle>
-                  <Card.Text className="mt-3 text-dark text-center fs-6"> 24 Hours a Day
+                  <Card.Subtitle className=" my-2 text-center "><img src={group58} alt="" /></Card.Subtitle>
+                  <Card.Text className=" dark text-center "> 24 Hours a Day <br />
                     7 Days a Week</Card.Text>
                 </Card>
             </div> 

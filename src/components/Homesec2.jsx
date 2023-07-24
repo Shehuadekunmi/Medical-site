@@ -19,8 +19,8 @@ const Homesec2 = () => {
                 Lectus ut lobortis quam egestas consequat et aliquet ipsum vel. Risus eu pharetra cras gravida. Nunc in eget semper maecenas ligula amet et. Mattis ullamcorper amet at metus. Diam pretium pulvinar mattis rutrum nunc risus. Ut ipsum duis egestas non. Dictum nunc sodales nisi senectus adipiscing feugiat. Sed arcu pellentesque urna dolor ultrices condimentum risus. Interdum morbi mauris in a morbi felis tincidunt. Aenean enim sed pellentesque arcu. Lorem posuere elit est in interdum tempus.
                 </p>
               </div>
-              <div className=''><Link className="btn bg-white fs-5 rounded-4">Register Now</Link></div>
-            </div>
+              <div className=''><Link to='/Login' className="btn bg-white fs-5 rounded-4">Register Now</Link></div>
+            </div>   
         
       </section>   
     </div>

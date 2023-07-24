@@ -55,9 +55,15 @@ font-weight: 600;
 line-height: 38px;
 width: 566px;
  }
+
+ 
 .link{
-background-color: whitesmoke;
-border-radius: 10px, 20px/ 30px, 40px;
+border-radius: 0px 20px;
+background: #FFF;
+display: inline-flex;
+padding: 17px 15px;
+align-items: flex-start;
+gap: 13px;
  }
 
  @media (max-width:770px) {
@@ -91,7 +97,7 @@ height: 175px;
      }
      .link{
         width: 140p;
-        font-size: 13px;
+        height: 30px;
         align-items: center;
    margin-right: 20px;
          }

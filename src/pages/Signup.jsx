@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from '../assets/logo.png'
 import signin from '../assets/signin.png'
 import '../styles/login.css'
@@ -8,32 +8,88 @@ import insta from '../assets/insta.png'
 import { Link } from 'react-router-dom';
 
 const Signup = () => {
+  const [values, setValues] = useState({
+    FullName: '',
+    Email: '',
+    Password: '',
+
+})
+const [error, setError] = useState({})
+
+function handleInput(event) {
+    setValues({ ...values, [event.target.name]: event.target.value })
+}
+
+function handleValidation(event) {
+    event.preventDefault();
+    let validationerror = {}
+
+
+    if(values.FullName === ''){
+      validationerror.FullName = 'Name can not be empty'
+    } 
+
+    if (values.Email === '') {
+        validationerror.Email = 'email required'
+    } else if (!values.Email.includes('@')) {
+        validationerror.Email = 'invalid email'
+    }
+
+    if (values.Password === '') {
+        validationerror.Password = 'password required'
+    } else if (values.Password.length < 8) {
+        validationerror.Password = 'the minimum password lenght is 8'
+    }
+
+    setError({ ...validationerror })
+    console.log(error);
+
+    setTimeout(() => {
+        setError({ validationerror: {} })
+    }, 3000)
+
+    setValues({
+        FirstName: '',
+        Email: '',
+        Password: '',
+    })
+}
+
+
+
   return (
     <div className='d-md-flex justify-content-center log'>
 
 <center className='fform'>
         <img src={logo} alt="logo" />
         <div className='medkit'>
-          <h5>Log In to MedKit</h5>
+          <h5>Create an Account</h5>
           <img src={facebk} alt="" /> <img src={gmail} alt="" /> <img src={insta} alt="" />
           <p>Or use your email address:</p>
         </div>
-        <form className='email' >
+        <form className='email' onSubmit={handleValidation} >
         <label htmlFor="Email">Full Name</label> <br />
-          <input type="Email" placeholder='Aisha Oyelola' /> <br />
+        <div className='error'>{error.FullName}</div>
+          <input type="text" placeholder='Aisha Oyelola' name='FullName'  onChange={handleInput}
+          value={values.FullName} /> <br />
+          
 
           <label htmlFor="Email">Email</label> <br />
-          <input type="Email" placeholder='elo@techstudio.com' /> <br />
+          <div className='error'>{error.Email}</div>
+          <input type="Email" placeholder='elo@techstudio.com'  name='Email' onChange={handleInput}
+          value={values.Email}/> <br />
 
           <label htmlFor="Password" >Password</label> <br />
-          <input type="number" placeholder='Min 8 characters' /> <br />
+          <div className='error'>{error.Password}</div>
+          <input type="password" placeholder='Min 8 characters' name='Password' onChange={handleInput}
+          value={values.Password} />
 
-          <Link to='/Appointment' className='btn '> <button className='btn' style={{width:'260px'}}>Sign Up</button> </Link>
+          <button className='btn'>Sign Up</button> 
 
           <div className="spa">
-            <p>Don’t have an account? <span> <Link to='/Login' className='btn '>Log In </Link> </span> </p>
+            <p>Don’t have an account? <span> <Link to='/Login' className='btn fs-4'>Log In </Link> </span> </p>
           </div>
-
+ 
         </form>
       </center>
 

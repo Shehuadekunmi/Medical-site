@@ -1,204 +1,47 @@
-.Atwo .button {
-    background-color: var(--gradient3);
-    margin-top: -330px;
+const [title, setTitle] = useState({
+    FullName: '',
+    Email: '',
+    Password: '',
+  })
+
+  const [error, setError] = useState('')
+
+  
+function handleInput(event) {
+  setValues({ ...values, [event.target.name]: event.target.value })
 }
 
-.im {
-    width: 412px;
-    height: 530px;
+const handleValidation = (event) =>{
+  event.preventDefualt()
+  let Validationerror ={}
 
-}
+  if(title.FullName === ''){
+    Validationerror.FullName = 'Name can not be empty'
+  } else if (title.FullName.length > 5) {
+    Validationerror.FullName = 'The name must be great than 5 ' 
+  }
 
-.test {
-    margin: 20px 0px;
-    border: 1px solid #00000066
-}
+  if (title.Email === ''){
+    Validationerror.Email = 'Email require'
+  } else if (!title.Email.includes ('@')) {
+    Validationerror.Email = 'invalid Email'
+  }
 
-.Atwo h6 {
-    font-family: Roboto;
-    font-size: 32px;
-    font-weight: 600;
-    width: 533px;
-    height: 86px;
-    color: var(--gradent1);
-}
+  if (title.Password === ''){
+    Validationerror.Password = 'Password require'
+  } else if (title.Password.length > 8) {
+    Validationerror.Password ='The min password lenght is 8'
+  }
 
-.mobil {
-    visibility: hidden;
-}
-.story .mobile{
-    visibility: hidden;
-}
+  setError({ ...Validationerror })
 
-.Atwo p {
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    width: 588px;
-}
+  setTimeout(() => {
+    setError({ validationerror: {} })
+}, 5000)
 
-.teles {
-    position: relative;
-    top: -360px;
-    left: 300px;
-}
-
-.teles img {
-    width: 363px;
-    height: 381px;
-}
-
-.C {
-    margin-top: -250px;
-    margin-bottom: 100px;
-}
-
-.story,
-.vision h4 {
-    color: var(--gradent1);
-    font-family: Roboto;
-    font-size: 32px;
-    font-weight: 700;
-}
-
-.story,
-.vision p {
-    width: 376px;
-    height: 108px;
-}
-
-.story p {
-    width: 620px;
-}
-
-
-
-@media (max-width:768px) {
-
-    .Atwo {
-        margin-top: -40px;
-        display: fle;
-    }
-
-    .A {
-        margin-top: -40px;
-    }
-
-    .teles img {
-        display: none;
-    }
-
-    .im {
-        width: 45%;
-    }
-
-    .im img {
-        height: 300px;
-        margin-left: 200px;
-        width: 100%;
-    }
-
-    .mobil {
-        visibility: visible;
-        width: 40%;
-    }
-
-    .mob .mobil {
-        visibility: visible;
-    padding-left: 210px;
-    margin-top: -220px;
-    font-size: 14px;
-        width: 60%;
-        text-align: start;
-    }
-
-     .des {
-        visibility: hidden;
-    }
-
-    .Atwo h6 {
-        font-size: 13px;
-        width: 30%;
-        margin-left: 210px;
-        padding-top: -50px;
-        margin-top: -10px;
-
-    }
-    .us{
-        padding-left: 210px;
-        margin-top: -30px;
-        font-size: 13px;
-    }
-    .Atwo .button {
-        width: 110px;
-        height: 35px;
-        border-radius: 15px;
-        margin-left: 230px;
-        margin-top: -30px;
-        text-align: center;
-    }
-
-    .why h6{
-        width: 70%;
-font-size: 16px;
-margin-left: 100px;
-margin-top: 20px;
-    }
-
-    .test {
-        width: 80%;
-        margin: 20px 0px;
-        border: 1px solid #00000066
-    }
-
-    .why p{
-        width: 70%;
-font-size: 12px;
-margin-left: 80px;
-    }
-
-    .fi{
-        margin-top: -50px;
-    }
-.story{
-    margin-top: 270px;
-}
-    .story h4{
-text-align: center;
-font-size: 20px;
-padding-right: 90px;
-    }
-    .story p{
-        visibility: hidden;
-    }
-    .story .mobile{
-
-        visibility: visible;
-        width: 80%;
-text-align: center;
-font-size: 16px;
-margin-top: -270px;
-padding-left: 20px;
-    }
-
-    .story .button{
-        margin-bottom: 10px;
-        margin-left: 100px;
-    }
-.hrr{
-    visibility: hidden;
-}
-    .vision{
-        margin-top: 200px;
-    }
-    .vision h4{
-        text-align: center;
-        font-size: 16px;
-        padding-top: 30px;
-    }
-    .vision p{
-        width: 90%;
-        text-align: center;
-        font-size: 16px;
-    }
+setValues({
+  FullName: '',
+    Email: '',
+    Password: '',
+})
 }

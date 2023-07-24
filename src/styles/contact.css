@@ -30,6 +30,9 @@ margin-bottom: -20px;
 
 }
 
+.dark{
+    font-size: 20px;
+}
 
 
 /* C5 */
@@ -91,6 +94,9 @@ display: none;
         display: flex;
         gap: 5px;
     }
+    .dark{
+        font-size: 12px;
+    }
 
     .car{
         width: 105px;
@@ -103,13 +109,13 @@ display: none;
        height: 108px;
     }
     .C5 input{
-       width: 65%;
+       width: 83%;
        height: 32px;
        margin: auto 8px;
     }
 
     .C5 button{
-        width: 45%;
+        width: 40%;
     height: 35px;
     }
     .C5 h4{
@@ -123,4 +129,6 @@ display: none;
     text-align: center;
   
     }
+
+
 }

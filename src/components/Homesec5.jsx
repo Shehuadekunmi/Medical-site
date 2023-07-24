@@ -18,7 +18,7 @@ const Homesec5 = () => {
         <center className='mt-3'><img src={heart} alt="hearbeat" /></center>
         <center className='my-5 day'>
           <h1>We Operate 24h a day  - 7 days a week!</h1>
-          <Link className="btn link mt-1 rounded-top-2">REPORT A PROBLEM</Link>
+         <div className="link"> <Link className="btn mt-1 rounded-top-2">REPORT A PROBLEM</Link> </div>
         </center>
       </section> 
 
