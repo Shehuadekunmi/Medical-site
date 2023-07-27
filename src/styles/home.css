@@ -107,7 +107,10 @@ line-height: 23px;
 /* section 5 */
 .doctors{
     width: 95%;
-   justify-content: space-around;
+    justify-content: space-between;
+    overflow-x: scroll;
+    gap: 10px;
+    
 }
 
 

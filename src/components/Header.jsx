@@ -17,22 +17,22 @@ const Header = () => {
         </Navbar.Brand>
     
         <Navbar.Toggle aria-controls="basic-navbar-nav" className='toggle' />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" className='block mx-auto text-center my-1 '>
           <Nav className="ms-auto">
            
-                <Link to ='/' className='text-decoration-none  fs-5 fw-light mx-3 hom'>Home</Link>
+                <Link to ='/' className='text-decoration-none  fs-5 fw-light my-1 mx-3 hom'>Home</Link>
            
-                <Link to='/about' className='text-decoration-none  fs-5 fw-light mx-3 abt' >About</Link>
-                <Link to ='/Contact' className='text-decoration-none  fs-5 fw-light mx-3 con'>Contact</Link>
+                <Link to='/about' className='text-decoration-none text-center fs-5 my-1 fw-light mx-3 abt' >About</Link>
+                <Link to ='/Contact' className='text-decoration-none text-center  my-1 fs-5 fw-light mx-3 con'>Contact</Link>
            
-                <Link to='/Services' className='text-decoration-none  fs-5 fw-light mx-3 ser' >Services</Link>
+                <Link to='/Services' className='text-decoration-none text-center my-1 fs-5 fw-light mx-3 ser' >Services</Link>
           </Nav>
 
           <Nav className="ms-auto">
            
-                <Link to ='/LogIn' className='text-decoration-none  fs-5 fw-light mx-3 hom'>Login</Link>
+                <Link to ='/LogIn' className='text-decoration-none my-1  fs-5 fw-light mx-3 hom'>Login</Link>
            
-                <Link to='/Signup' className='text-decoration-none   fw-light mx-3' >
+                <Link to='/Signup' className='text-decoration-none my-1  fw-light mx-3' >
                 <button className="btn sign rounded-3 text-white">SignUP</button>
                 </Link>
           </Nav>

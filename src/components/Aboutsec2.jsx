@@ -10,7 +10,7 @@ const Aboutsec2 = () => {
 
             <section className="Aatwo ">
                 <center></center>
-                <div className='Aa d-flex gap-3 mt-3'>
+                <div className='Aa d-flex justify-content-between  mt-3 mx-auto border  px-1'>
                     <div className="im">
                         <img src={micro} alt="" className='img-fluid' />
                     </div>
@@ -23,7 +23,7 @@ const Aboutsec2 = () => {
                     </div>
                 </div>
                 <hr className="horizontal" />
-                <div className='why'>
+                <div className='why mx-auto px-1 '>
                             <h6>Why Patients Choose Our Hospital?</h6>
                             <div className='fi'> <p> <FiCheckSquare /> Lorem ipsum dolor sit amet consectetur vestibulum.</p>
                                 <p> <FiCheckSquare /> Lorem ipsum dolor sit amet consectetur vestibulum.</p>

@@ -39,6 +39,10 @@
     height: 135px;
     color: var(--gradent1);
 }
+.mobile-img{
+
+    display: none;
+}
 
 .hori {
     width: 70px;
@@ -110,11 +114,20 @@
     .sho{
         display: none;
     }
+
+    .mobile-img{
+
+        display: block;
+    }
+    .desk-img{
+        display: none;
+    }
     .services button {
         width: 89px;
         height: 33px;
         border-radius: 20px;
         font-size: 10px;
+        margin-top: 5px;
 
     }
     .S2 {
@@ -129,7 +142,7 @@
     .S2-text p {
         width: 137px !important;
         height: 80px;
-        font-size: 10px;
+        font-size: 30px;
         margin-top: -30p;
     }
 

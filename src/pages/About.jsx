@@ -26,7 +26,7 @@ const About = () => {
 
 
 
-      <scetion className="Athree  d-block d-md-flex justify-content-evenly align-items-center">
+      <scetion className="Athree  d-block d-md-flex  justify-content-evenly align-items-center">
         <div className='disappear'>
           <div className=" my-5  d-flex gap-5  toyo">
             <Card style={{ width: '9rem', height: '10rem' }} className='car rounded-4 '>
@@ -38,6 +38,7 @@ const About = () => {
               <Card.Text className="mt-3 text-white text-center fs-5"> Team Members </Card.Text>
             </Card>
           </div>
+
           <div className=" my-5 d-flex gap-5  toyo">
             <Card style={{ width: '9rem', height: '10rem' }} className='car rounded-4'>
               <Card.Subtitle className="mb-2 my-4 text-white text-center fs-5">15 +</Card.Subtitle>
@@ -49,7 +50,7 @@ const About = () => {
             </Card>
           </div>
         </div>
-        <div className="face mb-2"><img src={face} alt="" className='mask img-fluid' /></div>
+        <div className="face px-1 mx-auto mb-2"><img src={face} alt="" className='mask img-fluid' /></div>
       </scetion>
 
       <Footer/>

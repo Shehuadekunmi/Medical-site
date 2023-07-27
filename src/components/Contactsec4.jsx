@@ -36,22 +36,6 @@ const Contactsec4 = () => {
     setError({ ...validationerror })
     console.log(error);
 
-    // if(values.Name.length < 5 ){
-    //   validationerror.Name = 'min length is 5'
-    // }
-
-    // if(values.Phone === ''){
-    //   validationerror.Phone='Please provide your mobile number'
-    // }
-
-    // if(values.Email === ''){
-    //   validationerror.Email ='Email require'
-    // } else if (!values.Email('@')){
-    //   validationerror.Email='Invalid email'
-    // }
-
-    // setError({ ...validationerror})
-
     setTimeout(() =>{
       setError ({validationerror: {} })
     },  5000)
@@ -70,7 +54,7 @@ const Contactsec4 = () => {
 
         <Row className="g-2">
           <form onSubmit={handleValidation} >
-            <div className=" d-flex gap-3 justify-content-center mt-5 ">
+            <div className=" d-flex justify-content-center mt-5 ">
               <div className='input ps-3 '>
                 <input className='input ps-3 ' type="text" placeholder='Your Name*' value={values.Name}
                   name='Name' onChange={handleinput} />
@@ -82,8 +66,7 @@ const Contactsec4 = () => {
                 <div className="error">{error.Phone}</div>
               </div>
             </div>
-
-
+      
             <Form.Floating className="mb-3  my-4 nam">
               <Form.Control
                 id="floatingInputCustom" onChange={handleinput} name='Email' value={values.Email}

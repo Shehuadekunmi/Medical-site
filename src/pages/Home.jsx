@@ -34,7 +34,7 @@ const Home = () => {
         <div className='dr'>
           <h1 className='text-white mt-4 '>Dr. Raj Spencer</h1>
           <h4>Consultant</h4>
-          <button className=' btn bg-white book rounded-4'> <Link to='/Login' className='btn bg-white book'> Book Appointment</Link> </button>
+          <button className=' btn bg-white book rounded-4'> <Link to='/Appointment' className='btn bg-white book'> Book Appointment</Link> </button>
         </div>
       </div>
 
@@ -43,12 +43,12 @@ const Home = () => {
 
       <Homesec3 />
 
-
+      
       <section className="four my-5">
         <center><h2>MEET OUR DOCTORS</h2>
           <img src={heart} alt="heartbeat" /></center>
 
-        <div className="doctors d-flex  mt-4 ">
+        <div className="doctors d-flex  mt-4 mx-auto ">
           <div className="doc1">
             <img src={fr3} alt="frame29" />
             <h3>Dr. Jay Stephen</h3>

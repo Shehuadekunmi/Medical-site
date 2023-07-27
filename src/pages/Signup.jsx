@@ -87,7 +87,7 @@ function handleValidation(event) {
           <button className='btn'>Sign Up</button> 
 
           <div className="spa">
-            <p>Don’t have an account? <span> <Link to='/Login' className='btn fs-4'>Log In </Link> </span> </p>
+            <p>Don’t have an account? <span> <Link to='/Login' className='text-decoration-none'>Log In </Link> </span> </p>
           </div>
  
         </form>
